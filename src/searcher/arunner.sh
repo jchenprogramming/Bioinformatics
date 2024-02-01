@@ -2,9 +2,9 @@
 
 # Loop through each chromosome
 for i in "$@"; do
-    REF="AChrom${i}.txt"
-    DICT="SNPChrom${i}.txt"
-    OUTPUT="AFinalChrom${i}.txt"
+    REF="../../output_files/AChrom${i}.txt"
+    DICT="../../output_files/SNPChrom${i}.txt"
+    OUTPUT="../../output_files/AFinalChrom${i}.txt"
 
     # Run Java program using here document
     java SamSearcher2 <<EOF
