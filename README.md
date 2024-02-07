@@ -26,6 +26,8 @@ For each species:
 
 The read identification step of the analysis involves a search algorithm pipeline. Sorted by position, invdividual SNPs are pulled from the VCF file and mapped to the corresponding reads in the SAM file, which are then tagged and added into a new filtered SAM file. This process iterates until all SNPs have been analyzed against all reads. To improve efficiency, computation pathways are initially divided down by chromosome and reassembled on the back end.
 
+![IMG_0184](https://github.com/jchenprogramming/Bioinformatics/assets/157077133/9aa9500f-4037-44d9-8d38-b4179e4ad725)
+
 # Citations
 
 Alexa A, Rahnenfuhrer J (2023). topGO: Enrichment Analysis for Gene Ontology. doi:10.18129/B9.bioc.topGO, R package version 2.54.0, https://bioconductor.org/packages/topGO.
