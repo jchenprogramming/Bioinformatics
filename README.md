@@ -8,16 +8,30 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 - Counts the number of reads corresponding to a specific gene
 - Runs statistical tests for Gene Ontology terms based on count data
 
-# Inputs
+## Inputs
 
 For each species:
 - RNA sequencing data in reads (SAM files)
 - SNP data set with (VCF files)
 - Reference gene feature data (GTF files)
 
-# Outputs
+## Outputs
 
 For each species:
 - New RNA-seq data set with distinguished reads (SAM)
 - List of input genes and corresponding read counts
 - Data table containing applicable Gene Ontology terms
+
+## Read Identification Basics
+
+The read identification step of the analysis involves a search algorithm pipeline. Sorted by position, invdividual SNPs are pulled from the VCF file and mapped to the corresponding reads in the SAM file, which are then tagged and added into a new filtered SAM file. This process iterates until all SNPs have been analyzed against all reads. To improve efficiency, computation pathways are initially divided down by chromosome and reassembled on the back end.
+
+# Citations
+
+Alexa A, Rahnenfuhrer J (2023). topGO: Enrichment Analysis for Gene Ontology. doi:10.18129/B9.bioc.topGO, R package version 2.54.0, https://bioconductor.org/packages/topGO.
+
+Putri et al. Analysing high-throughput sequencing data in Python with HTSeq 2.0. Bioinformatics, btac166, https://doi.org/10.1093/bioinformatics/btac166 (2022).
+
+Tarazona S, Garcia-Alcalde F, Dopazo J, Ferrer A, Conesa A (2011). “Differential expression in RNA-seq: a matter of depth.” Genome Research, 21(12), 4436.
+
+Tarazona S, Furio-Tari P, Turra D, Pietro AD, Nueda MJ, Ferrer A, Conesa A (2015). “Data quality aware analysis of differential expression in RNA-seq with NOISeq R/Bioc package.” Nucleic Acids Research, 43(21), e140.
