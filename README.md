@@ -14,6 +14,7 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 - Counts the number of reads corresponding to a specific gene
 - Runs statistical tests for Gene Ontology terms based on count data
 
+
 ## Inputs
 
 For each species:
@@ -31,8 +32,7 @@ For each species:
 ## Read Identification Basics
 
 The read identification step of the analysis involves a search algorithm pipeline. Sorted by position, invdividual SNPs are pulled from the VCF file and mapped to the corresponding reads in the SAM file, which are then tagged and added into a new filtered SAM file. This process iterates until all SNPs have been analyzed against all reads. To improve efficiency, computation pathways are initially divided down by chromosome and reassembled on the back end.
-
-![IMG_0184](https://github.com/jchenprogramming/Bioinformatics/assets/157077133/9aa9500f-4037-44d9-8d38-b4179e4ad725)
+[DSA Diagram.pdf](https://github.com/jchenprogramming/Bioinformatics/files/14289426/DSA.Diagram.pdf)
 
 # Citations
 
