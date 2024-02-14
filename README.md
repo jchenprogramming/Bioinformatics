@@ -32,7 +32,7 @@ For each species:
 ## Read Identification Basics
 
 The read identification step of the analysis involves a search algorithm pipeline. Sorted by position, invdividual SNPs are pulled from the VCF file and mapped to the corresponding reads in the SAM file, which are then tagged and added into a new filtered SAM file. This process iterates until all SNPs have been analyzed against all reads. To improve efficiency, computation pathways are initially divided down by chromosome and reassembled on the back end.
-[DSA Diagram.pdf](https://github.com/jchenprogramming/Bioinformatics/files/14289426/DSA.Diagram.pdf)
+![DSA Diagram-1](https://github.com/jchenprogramming/Bioinformatics/assets/157077133/7b461a51-1ae6-4d2c-ab6c-38e9020c13e3)
 
 # Citations
 
