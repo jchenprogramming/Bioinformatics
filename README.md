@@ -2,6 +2,12 @@
 
 DSA is an assistive bioinformatics tool designed for RNA differential gene expression analyses here at the University of North Carolina Charlotte. With the help of HTSeq/NOISeq/topGO, the program utilizes data from RNA sequencing (SAM), single nucleotide polymorphisms (VCF), and gene features (GTF) to compare expression patterns between crossed species. The goal of this tool is to distinguish the activated genes during cross-species breeding and streamline the differences in expressed mechanics.
 
+## Required Packages
+
+HTSeq: https://htseq.readthedocs.io/en/latest/
+NOISeq: https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html
+topGO: https://bioconductor.org/packages/release/bioc/html/topGO.html
+
 # Features
 
 - Distinguishes organism-specific RNA reads with identifying SNPs
