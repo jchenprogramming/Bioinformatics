@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class SamSplitter {
     public static void main(String[] args) throws IOException {
-        String inputFile = "vertpistil.sam";
+        String inputFile = "input.sam";
         
         try (BufferedReader br = new BufferedReader(new FileReader(inputFile))) {
             // Create ten BufferedWriter instances for output files
