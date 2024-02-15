@@ -8,6 +8,7 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 - NOISeq: https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html
 - topGO: https://bioconductor.org/packages/release/bioc/html/topGO.html
 
+<br>
 # Features
 
 - Distinguishes organism-specific RNA reads with identifying SNPs
