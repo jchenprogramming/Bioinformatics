@@ -4,7 +4,7 @@
 module load samtools
 
 # Convert BAM to SAM
-samtools view -h -o "vertpistil.sam" "15.rg.iap.sorted.bam"
+samtools view -h -o "input.sam" "[INSERT '.BAM' SORTED FILE]"
 
 # Run Java program to split VCF file
 java ChromSplitter
