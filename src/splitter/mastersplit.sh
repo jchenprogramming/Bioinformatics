@@ -6,6 +6,9 @@ module load samtools
 # Convert BAM to SAM
 samtools view -h -o "input.sam" "[INSERT '.BAM' SORTED FILE]"
 
+# Run Java program to format VCF file
+java Translator
+
 # Run Java program to split VCF file
 java ChromSplitter
 
