@@ -8,7 +8,7 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 - NOISeq: https://www.bioconductor.org/packages/release/bioc/html/NOISeq.html
 - topGO: https://bioconductor.org/packages/release/bioc/html/topGO.html
 
-<br>
+***
 
 # Usage
 1. Add three input files (VCF, SAM, GTF) into the "/input_files" folder.
@@ -38,13 +38,14 @@ For each species:
 - List of input genes and corresponding read counts
 - Data table containing applicable Gene Ontology terms
 
-## Read Identification Basics
+***
+
+# Read Identification Basics
 
 The read identification step of the analysis involves a search algorithm pipeline. Sorted by position, invdividual SNPs are pulled from the VCF file and mapped to the corresponding reads in the SAM file, which are then tagged and added into a new filtered SAM file. This process iterates until all SNPs have been analyzed against all reads. To improve efficiency, computation pathways are initially divided down by chromosome and reassembled on the back end.
 ![DSA Diagram-1](https://github.com/jchenprogramming/Bioinformatics/assets/157077133/7b461a51-1ae6-4d2c-ab6c-38e9020c13e3)
 
-<br>
-
+***
 
 # Citations
 
