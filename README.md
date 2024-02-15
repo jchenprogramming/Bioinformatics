@@ -15,6 +15,8 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 2. Rename arguments in source code or rename input files to default naming: "input.[EXTENSION]"
 3. Run "bash runanalysis.sh" in the appropriate base working directory.
 
+***
+
 # Features
 
 - Distinguishes organism-specific RNA reads with identifying SNPs
