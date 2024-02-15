@@ -10,6 +10,11 @@ DSA is an assistive bioinformatics tool designed for RNA differential gene expre
 
 <br>
 
+# Usage
+1. Add three input files (VCF, SAM, GTF) into the "/input_files" folder.
+2. Rename arguments in source code or rename input files to default naming: "input.[EXTENSION]"
+3. Run "bash runanalysis.sh" in the appropriate base working directory.
+
 # Features
 
 - Distinguishes organism-specific RNA reads with identifying SNPs
@@ -38,10 +43,6 @@ The read identification step of the analysis involves a search algorithm pipelin
 
 <br>
 
-# Usage
-1. Add three input files (VCF, SAM, GTF) into the "/input_files" folder.
-2. Rename arguments in source code or rename input files to default naming: "input.[EXTENSION]"
-3. Run "bash runanalysis.sh" in the appropriate base working directory.
 
 # Citations
 
